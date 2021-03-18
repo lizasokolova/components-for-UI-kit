@@ -1,0 +1,64 @@
+.atlas-panel {
+
+    border: 1px solid $atlas-fa;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 2px;
+
+    &__header {
+        box-sizing: border-box;
+        background-color: $atlas-la;
+    }
+
+    &__incut {
+        box-sizing: border-box;
+        background-color: $atlas-si;
+    }
+
+    &__footer {
+        box-sizing: border-box;
+        background-color: $atlas-la;
+    }
+}
+
+.atlas-panel__header+.atlas-panel__incut {
+    border-top: 1px solid $atlas-fa;
+}
+
+.atlas-panel__incut+div {
+    border-top: 1px solid $atlas-fa;
+}
+
+div+.atlas-panel__footer {
+    border-top: 1px solid $atlas-fa;
+}
+
+.atlas-panel__incut+.atlas-panel__footer {
+    border-top: 1px solid $atlas-fa;
+}
+
+.atlas-panel__header+div {
+    border-top: 1px solid $atlas-fa;
+}
+
+.atlas-panel_md {
+    .atlas-panel__header {
+        height: 60px; 
+        @include atlas-fs-500;
+    }
+
+    .atlas-panel__footer {
+        height: 60px;
+    }
+}
+
+.atlas-panel_lg {
+    .atlas-panel__header {
+        height: 70px;
+        @include atlas-fs-600;
+    }
+
+    .atlas-panel__footer {
+        height: 70px;
+    }
+}

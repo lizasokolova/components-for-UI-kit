@@ -1,0 +1,19 @@
+.atlas-dropdown {
+
+    &__overlay_hidden {
+        opacity: 0;
+    }
+
+    &__overlay_top-right {
+        bottom: 100%;
+        right: 0%;
+    }
+
+    &__overlay_top-left {
+        bottom: 100%;
+    }
+
+    &__overlay_bottom-right {
+        right: 0%;
+    }
+}

@@ -1,0 +1,19 @@
+.atlas-dropdown {
+    position: relative;
+    padding: 6px 0px;
+
+    &__trigger {
+        margin-bottom: 5px;
+    }
+
+    &__overlay {
+        border: 1px solid $atlas-mi;
+        padding: 15px;
+        min-width: 100%;
+        border-radius: 2px;
+        transition: opacity 0.2s;
+        position: absolute;
+        background-color: $atlas-super-light;
+        margin-top: 5px;
+    }
+}

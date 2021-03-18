@@ -1,0 +1,19 @@
+.password-field {
+    width: 100%;
+
+    &__icon {
+        cursor: pointer;
+    }
+
+    .atlas-input-with-companion {
+        width: 100%;
+    }
+}
+
+input::-ms-reveal {
+        display: none;
+    }
+
+input::-ms-clear {
+        display: none;
+    }

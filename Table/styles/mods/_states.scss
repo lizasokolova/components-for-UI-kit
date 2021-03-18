@@ -1,0 +1,20 @@
+.atlas-table {
+
+    &__row:hover {
+        background-color: $atlas-la;
+    }
+
+    &__header:hover {
+        background-color: $atlas-la;
+    }
+
+    &__row:first-child {
+        margin-top: 0px;
+    }
+
+    &__header-button {
+        text-transform: uppercase;
+        color: $atlas-re;
+        fill: $atlas-re;
+    }
+}

@@ -1,0 +1,49 @@
+.atlas-table {
+
+    &_common {
+        .atlas-table_with-header {
+            border: 1px solid $atlas-fa;
+        }
+    }
+
+    &_mild {
+        .atlas-table__row {
+            border-left: 0px;
+            border-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .atlas-table__header {
+            border-left: 0px;
+            border-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    &_light {
+        .atlas-table__row {
+            border-left: 0px;
+            border-right: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .atlas-table__row:nth-child(1) {
+            border-top: 0px;
+        }
+
+        .atlas-table__row:last-child {
+            border-bottom: 0px;
+        }
+
+        .atlas-table__header {
+            border-left: 0px;
+            border-right: 0px;
+            border-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+}

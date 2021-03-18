@@ -1,0 +1,33 @@
+.atlas-table {
+
+    &__header {
+        display: flex;
+        border: 1px solid $atlas-fa;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 20px;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        @include atlas-fs-200;
+        color: $atlas-ut;
+    }
+
+    &__row {
+        border: 1px solid $atlas-fa;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: -1px;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        @include atlas-fs-300;
+        color: $atlas-ut;
+    }
+}
